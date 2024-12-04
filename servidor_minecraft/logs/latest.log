@@ -1,94 +1,90 @@
-[23:50:27] [main/INFO]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 37.1.1, --fml.mcVersion, 1.17.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20210706.113038]
-[23:50:27] [main/INFO]: ModLauncher 9.0.7+91+master.8569cdf starting: java version 21.0.4 by Microsoft
-[23:50:27] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=union:/workspaces/Server/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar%2319! Service=ModLauncher Env=SERVER
-[23:50:28] [main/INFO]: Found mod file fmlcore-1.17.1-37.1.1.jar of type LIBRARY with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@758c83d8
-[23:50:28] [main/INFO]: Found mod file javafmllanguage-1.17.1-37.1.1.jar of type LANGPROVIDER with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@758c83d8
-[23:50:28] [main/INFO]: Found mod file mclanguage-1.17.1-37.1.1.jar of type LANGPROVIDER with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@758c83d8
-[23:50:28] [main/INFO]: Found mod file server-1.17.1-20210706.113038-srg.jar of type MOD with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@758c83d8
-[23:50:28] [main/INFO]: Found mod file forge-1.17.1-37.1.1-universal.jar of type MOD with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@758c83d8
-[23:50:31] [main/INFO]: Launching target 'forgeserver' with arguments []
-[23:50:40] [modloading-worker-0/INFO]: Forge mod loading, version 37.1.1, for MC 1.17.1 with MCP 20210706.113038
-[23:50:40] [modloading-worker-0/INFO]: MinecraftForge v37.1.1 Initialized
-[23:50:42] [Forge Version Check/INFO]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[23:50:43] [Forge Version Check/INFO]: [forge] Found status: UP_TO_DATE Current: 37.1.1 Target: null
-[23:50:47] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[23:50:48] [main/WARN]: Assets URL 'union:/workspaces/Server/servidor_minecraft/libraries/net/minecraft/server/1.17.1-20210706.113038/server-1.17.1-20210706.113038-srg.jar%2326!/assets/.mcassetsroot' uses unexpected schema
-[23:50:48] [main/WARN]: Assets URL 'union:/workspaces/Server/servidor_minecraft/libraries/net/minecraft/server/1.17.1-20210706.113038/server-1.17.1-20210706.113038-srg.jar%2326!/data/.mcassetsroot' uses unexpected schema
-[23:50:48] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[23:50:48] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[23:50:48] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[23:50:48] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[23:50:48] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[23:50:48] [main/INFO]: Reloading ResourceManager: Default, forge-1.17.1-37.1.1-universal.jar
-[23:50:53] [Worker-Main-2/INFO]: Loaded 7 recipes
-[23:50:55] [Worker-Main-2/INFO]: Loaded 1137 advancements
-[23:50:57] [main/INFO]: Injecting existing registry data into this CLIENT instance
-[23:50:58] [Server thread/INFO]: Starting minecraft server version 1.17.1
-[23:50:58] [Server thread/INFO]: Loading properties
-[23:50:58] [Server thread/INFO]: Default game type: SURVIVAL
-[23:50:58] [Server thread/INFO]: Generating keypair
-[23:50:58] [Server thread/INFO]: Starting Minecraft server on *:25565
-[23:50:58] [Server thread/INFO]: Using epoll channel type
-[23:50:59] [Server thread/INFO]: Preparing level "world"
-[23:50:59] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[23:51:00] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[23:51:08] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[23:51:08] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[23:51:08] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[23:51:08] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[23:51:08] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[23:51:08] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[23:51:08] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[23:51:08] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[23:51:08] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[23:51:08] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[23:51:08] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[23:51:08] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[23:51:08] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[23:51:08] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[23:51:08] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[23:51:08] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[23:51:08] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[23:51:08] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[23:51:08] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[23:51:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[23:51:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[23:51:10] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[23:51:10] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[23:51:11] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[23:51:12] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[23:51:12] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[23:51:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[23:51:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[23:51:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[23:51:14] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[23:51:14] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[23:51:15] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[23:51:16] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[23:51:16] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[23:51:16] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[23:51:17] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[23:51:17] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[23:51:18] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[23:51:18] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[23:51:19] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[23:51:20] [Worker-Main-2/INFO]: Preparing spawn area: 6%
-[23:51:22] [Worker-Main-2/INFO]: Preparing spawn area: 55%
-[23:51:22] [Worker-Main-2/INFO]: Preparing spawn area: 55%
-[23:51:22] [Worker-Main-2/INFO]: Preparing spawn area: 55%
-[23:51:22] [Worker-Main-2/INFO]: Preparing spawn area: 55%
-[23:51:22] [Worker-Main-2/INFO]: Preparing spawn area: 55%
-[23:51:22] [Worker-Main-2/INFO]: Preparing spawn area: 55%
-[23:51:23] [Server thread/INFO]: Time elapsed: 24104 ms
-[23:51:23] [Server thread/INFO]: Done (24.404s)! For help, type "help"
-[23:54:02] [Server thread/INFO]: Stopping the server
-[23:54:02] [Server thread/INFO]: Stopping server
-[23:54:02] [Server thread/INFO]: Saving players
-[23:54:02] [Server thread/INFO]: Saving worlds
-[23:54:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23:54:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[23:54:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[23:54:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:54:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:54:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:54:04] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[23:54:42] [main/INFO]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 37.1.1, --fml.mcVersion, 1.17.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20210706.113038]
+[23:54:42] [main/INFO]: ModLauncher 9.0.7+91+master.8569cdf starting: java version 21.0.4 by Microsoft
+[23:54:43] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=union:/workspaces/Server/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar%2319! Service=ModLauncher Env=SERVER
+[23:54:43] [main/INFO]: Found mod file fmlcore-1.17.1-37.1.1.jar of type LIBRARY with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@758c83d8
+[23:54:43] [main/INFO]: Found mod file javafmllanguage-1.17.1-37.1.1.jar of type LANGPROVIDER with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@758c83d8
+[23:54:43] [main/INFO]: Found mod file mclanguage-1.17.1-37.1.1.jar of type LANGPROVIDER with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@758c83d8
+[23:54:43] [main/INFO]: Found mod file server-1.17.1-20210706.113038-srg.jar of type MOD with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@758c83d8
+[23:54:43] [main/INFO]: Found mod file forge-1.17.1-37.1.1-universal.jar of type MOD with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@758c83d8
+[23:54:46] [main/INFO]: Launching target 'forgeserver' with arguments []
+[23:54:56] [modloading-worker-0/INFO]: Forge mod loading, version 37.1.1, for MC 1.17.1 with MCP 20210706.113038
+[23:54:56] [modloading-worker-0/INFO]: MinecraftForge v37.1.1 Initialized
+[23:54:58] [Forge Version Check/INFO]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[23:54:59] [Forge Version Check/INFO]: [forge] Found status: UP_TO_DATE Current: 37.1.1 Target: null
+[23:55:02] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[23:55:02] [main/WARN]: Assets URL 'union:/workspaces/Server/servidor_minecraft/libraries/net/minecraft/server/1.17.1-20210706.113038/server-1.17.1-20210706.113038-srg.jar%2326!/assets/.mcassetsroot' uses unexpected schema
+[23:55:02] [main/WARN]: Assets URL 'union:/workspaces/Server/servidor_minecraft/libraries/net/minecraft/server/1.17.1-20210706.113038/server-1.17.1-20210706.113038-srg.jar%2326!/data/.mcassetsroot' uses unexpected schema
+[23:55:03] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[23:55:03] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[23:55:03] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[23:55:03] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[23:55:03] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[23:55:03] [main/INFO]: Reloading ResourceManager: Default, forge-1.17.1-37.1.1-universal.jar
+[23:55:08] [Worker-Main-2/INFO]: Loaded 7 recipes
+[23:55:10] [Worker-Main-2/INFO]: Loaded 1137 advancements
+[23:55:12] [main/INFO]: Injecting existing registry data into this CLIENT instance
+[23:55:14] [Server thread/INFO]: Starting minecraft server version 1.17.1
+[23:55:14] [Server thread/INFO]: Loading properties
+[23:55:14] [Server thread/INFO]: Default game type: SURVIVAL
+[23:55:14] [Server thread/INFO]: Generating keypair
+[23:55:14] [Server thread/INFO]: Starting Minecraft server on *:25565
+[23:55:14] [Server thread/INFO]: Using epoll channel type
+[23:55:14] [Server thread/INFO]: Preparing level "world"
+[23:55:14] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[23:55:15] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[23:55:15] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[23:55:15] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[23:55:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[23:55:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[23:55:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[23:55:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[23:55:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[23:55:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[23:55:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[23:55:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[23:55:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[23:55:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[23:55:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[23:55:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[23:55:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[23:55:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[23:55:23] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[23:55:23] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[23:55:24] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[23:55:25] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[23:55:25] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[23:55:25] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[23:55:26] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[23:55:26] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[23:55:27] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[23:55:27] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[23:55:28] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[23:55:28] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[23:55:29] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[23:55:29] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[23:55:30] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[23:55:30] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[23:55:31] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[23:55:31] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[23:55:32] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[23:55:32] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[23:55:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[23:55:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[23:55:34] [Worker-Main-2/INFO]: Preparing spawn area: 4%
+[23:55:36] [Worker-Main-2/INFO]: Preparing spawn area: 42%
+[23:55:36] [Worker-Main-2/INFO]: Preparing spawn area: 42%
+[23:55:36] [Worker-Main-2/INFO]: Preparing spawn area: 42%
+[23:55:36] [Worker-Main-2/INFO]: Preparing spawn area: 42%
+[23:55:36] [Server thread/INFO]: Time elapsed: 21944 ms
+[23:55:36] [Server thread/INFO]: Done (22.275s)! For help, type "help"
+[23:58:07] [Server thread/INFO]: Stopping the server
+[23:58:07] [Server thread/INFO]: Stopping server
+[23:58:07] [Server thread/INFO]: Saving players
+[23:58:07] [Server thread/INFO]: Saving worlds
+[23:58:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:58:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[23:58:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[23:58:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:58:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:58:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:58:08] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
