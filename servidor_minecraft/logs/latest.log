@@ -135,3 +135,4 @@ Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLeni
 [17:56:01] [Server thread/INFO]: [SvAngeel: Set own game mode to Spectator Mode]
 [17:56:03] [Server thread/INFO]: [SvAngeel: Set own game mode to Creative Mode]
 [17:57:07] [Server thread/WARN]: SvAngeel moved too quickly! -3.774198629957894,-9.371508115577058,0.2221668719581089
+[18:09:51] [Server thread/INFO]: [SvAngeel: Applied effect Speed to SvAngeel]
