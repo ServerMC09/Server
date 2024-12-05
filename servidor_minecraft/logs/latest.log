@@ -137,3 +137,7 @@ Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLeni
 [17:57:07] [Server thread/WARN]: SvAngeel moved too quickly! -3.774198629957894,-9.371508115577058,0.2221668719581089
 [18:09:51] [Server thread/INFO]: [SvAngeel: Applied effect Speed to SvAngeel]
 [18:11:42] [Server thread/INFO]: [SvAngeel: Removed every effect from SvAngeel]
+[18:36:01] [Server thread/INFO]: [SvAngeel: Set the world spawn point to 284, 64, -398 [0.0]]
+[18:36:06] [Server thread/INFO]: [SvAngeel: Set the world spawn point to 283, 64, -398 [0.0]]
+[18:36:13] [Server thread/INFO]: [SvAngeel: Set spawn point to 283, 64, -398 [0.0] in minecraft:overworld for SvAngeel]
+[18:37:13] [Server thread/INFO]: SvAngeel has made the advancement [Glow and Behold!]
