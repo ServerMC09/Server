@@ -1,45 +1,45 @@
-[01:06:57] [main/INFO]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 37.1.1, --fml.mcVersion, 1.17.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20210706.113038]
-[01:06:57] [main/INFO]: ModLauncher 9.0.7+91+master.8569cdf starting: java version 21.0.4 by Microsoft
-[01:06:58] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=union:/workspaces/Server/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar%2319! Service=ModLauncher Env=SERVER
-[01:06:58] [main/INFO]: Found mod file jei-1.17.1-8.3.1.1002.jar of type MOD with locator {mods folder locator at /workspaces/Server/servidor_minecraft/mods}
-[01:06:58] [main/INFO]: Found mod file worldedit-mod-7.2.7.jar of type MOD with locator {mods folder locator at /workspaces/Server/servidor_minecraft/mods}
-[01:06:59] [main/INFO]: Found mod file fmlcore-1.17.1-37.1.1.jar of type LIBRARY with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@5f031ebd
-[01:06:59] [main/INFO]: Found mod file javafmllanguage-1.17.1-37.1.1.jar of type LANGPROVIDER with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@5f031ebd
-[01:06:59] [main/INFO]: Found mod file mclanguage-1.17.1-37.1.1.jar of type LANGPROVIDER with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@5f031ebd
-[01:06:59] [main/INFO]: Found mod file server-1.17.1-20210706.113038-srg.jar of type MOD with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@5f031ebd
-[01:06:59] [main/INFO]: Found mod file forge-1.17.1-37.1.1-universal.jar of type MOD with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@5f031ebd
-[01:07:08] [main/INFO]: Launching target 'forgeserver' with arguments []
-[01:07:31] [modloading-worker-0/INFO]: Forge mod loading, version 37.1.1, for MC 1.17.1 with MCP 20210706.113038
-[01:07:31] [modloading-worker-0/INFO]: MinecraftForge v37.1.1 Initialized
-[01:07:36] [Forge Version Check/INFO]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[01:07:38] [modloading-worker-0/INFO]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2aa616a2]
-[01:07:38] [modloading-worker-0/INFO]: WorldEdit for Forge (version 7.2.7+9f3e795) is loaded
-[01:07:38] [Forge Version Check/INFO]: [forge] Found status: UP_TO_DATE Current: 37.1.1 Target: null
-[01:07:49] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[01:07:50] [main/WARN]: Assets URL 'union:/workspaces/Server/servidor_minecraft/libraries/net/minecraft/server/1.17.1-20210706.113038/server-1.17.1-20210706.113038-srg.jar%2329!/assets/.mcassetsroot' uses unexpected schema
-[01:07:50] [main/WARN]: Assets URL 'union:/workspaces/Server/servidor_minecraft/libraries/net/minecraft/server/1.17.1-20210706.113038/server-1.17.1-20210706.113038-srg.jar%2329!/data/.mcassetsroot' uses unexpected schema
-[01:07:52] [main/INFO]: Registering commands with com.sk89q.worldedit.forge.ForgePlatform
-[01:07:53] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:07:53] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:07:53] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[01:07:53] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[01:07:53] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:07:53] [main/INFO]: Reloading ResourceManager: Default, forge-1.17.1-37.1.1-universal.jar, worldedit-mod-7.2.7.jar, jei-1.17.1-8.3.1.1002.jar
-[01:08:00] [Worker-Main-2/INFO]: Loaded 7 recipes
-[01:08:03] [Worker-Main-2/INFO]: Loaded 1137 advancements
-[01:08:06] [main/INFO]: Injecting existing registry data into this CLIENT instance
-[01:08:08] [Server thread/INFO]: Starting minecraft server version 1.17.1
-[01:08:08] [Server thread/INFO]: Loading properties
-[01:08:08] [Server thread/INFO]: Default game type: SURVIVAL
-[01:08:08] [Server thread/INFO]: Generating keypair
-[01:08:08] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:08:09] [Server thread/INFO]: Using epoll channel type
-[01:08:09] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[01:08:09] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[01:08:09] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[01:08:09] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[01:08:09] [Server thread/WARN]: Failed to load white-list: 
-com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 4 path $
+[01:22:15] [main/INFO]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 37.1.1, --fml.mcVersion, 1.17.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20210706.113038]
+[01:22:15] [main/INFO]: ModLauncher 9.0.7+91+master.8569cdf starting: java version 21.0.4 by Microsoft
+[01:22:16] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=union:/workspaces/Server/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar%2319! Service=ModLauncher Env=SERVER
+[01:22:16] [main/INFO]: Found mod file jei-1.17.1-8.3.1.1002.jar of type MOD with locator {mods folder locator at /workspaces/Server/servidor_minecraft/mods}
+[01:22:16] [main/INFO]: Found mod file worldedit-mod-7.2.7.jar of type MOD with locator {mods folder locator at /workspaces/Server/servidor_minecraft/mods}
+[01:22:16] [main/INFO]: Found mod file fmlcore-1.17.1-37.1.1.jar of type LIBRARY with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@5f031ebd
+[01:22:16] [main/INFO]: Found mod file javafmllanguage-1.17.1-37.1.1.jar of type LANGPROVIDER with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@5f031ebd
+[01:22:16] [main/INFO]: Found mod file mclanguage-1.17.1-37.1.1.jar of type LANGPROVIDER with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@5f031ebd
+[01:22:16] [main/INFO]: Found mod file server-1.17.1-20210706.113038-srg.jar of type MOD with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@5f031ebd
+[01:22:16] [main/INFO]: Found mod file forge-1.17.1-37.1.1-universal.jar of type MOD with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@5f031ebd
+[01:22:20] [main/INFO]: Launching target 'forgeserver' with arguments []
+[01:22:30] [modloading-worker-0/INFO]: Forge mod loading, version 37.1.1, for MC 1.17.1 with MCP 20210706.113038
+[01:22:30] [modloading-worker-0/INFO]: MinecraftForge v37.1.1 Initialized
+[01:22:32] [Forge Version Check/INFO]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[01:22:33] [modloading-worker-0/INFO]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@787889b3]
+[01:22:33] [modloading-worker-0/INFO]: WorldEdit for Forge (version 7.2.7+9f3e795) is loaded
+[01:22:33] [Forge Version Check/INFO]: [forge] Found status: UP_TO_DATE Current: 37.1.1 Target: null
+[01:22:39] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01:22:39] [main/WARN]: Assets URL 'union:/workspaces/Server/servidor_minecraft/libraries/net/minecraft/server/1.17.1-20210706.113038/server-1.17.1-20210706.113038-srg.jar%2329!/assets/.mcassetsroot' uses unexpected schema
+[01:22:39] [main/WARN]: Assets URL 'union:/workspaces/Server/servidor_minecraft/libraries/net/minecraft/server/1.17.1-20210706.113038/server-1.17.1-20210706.113038-srg.jar%2329!/data/.mcassetsroot' uses unexpected schema
+[01:22:40] [main/INFO]: Registering commands with com.sk89q.worldedit.forge.ForgePlatform
+[01:22:40] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:22:40] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:22:40] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01:22:40] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01:22:40] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:22:40] [main/INFO]: Reloading ResourceManager: Default, forge-1.17.1-37.1.1-universal.jar, worldedit-mod-7.2.7.jar, jei-1.17.1-8.3.1.1002.jar
+[01:22:45] [Worker-Main-2/INFO]: Loaded 7 recipes
+[01:22:47] [Worker-Main-2/INFO]: Loaded 1137 advancements
+[01:22:49] [main/INFO]: Injecting existing registry data into this CLIENT instance
+[01:22:50] [Server thread/INFO]: Starting minecraft server version 1.17.1
+[01:22:50] [Server thread/INFO]: Loading properties
+[01:22:50] [Server thread/INFO]: Default game type: SURVIVAL
+[01:22:50] [Server thread/INFO]: Generating keypair
+[01:22:51] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:22:51] [Server thread/INFO]: Using epoll channel type
+[01:22:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:22:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:22:51] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:22:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:22:51] [Server thread/WARN]: Failed to load white-list: 
+com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 2 column 2 path $
 	at com.google.gson.Gson.assertFullConsumption(Gson.java:863) ~[gson-2.8.0.jar%2322!:?]
 	at com.google.gson.Gson.fromJson(Gson.java:826) ~[gson-2.8.0.jar%2322!:?]
 	at net.minecraft.server.players.StoredUserList.m_11399_(SourceFile:118) ~[server-1.17.1-20210706.113038-srg.jar%2329!:?]
@@ -49,89 +49,70 @@ com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonExcepti
 	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:660) ~[server-1.17.1-20210706.113038-srg.jar%2329!:?]
 	at net.minecraft.server.MinecraftServer.m_177918_(MinecraftServer.java:258) ~[server-1.17.1-20210706.113038-srg.jar%2329!:?]
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
-Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 4 path $
+Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 2 column 2 path $
 	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1559) ~[gson-2.8.0.jar%2322!:?]
 	at com.google.gson.stream.JsonReader.checkLenient(JsonReader.java:1401) ~[gson-2.8.0.jar%2322!:?]
 	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:542) ~[gson-2.8.0.jar%2322!:?]
 	at com.google.gson.stream.JsonReader.peek(JsonReader.java:425) ~[gson-2.8.0.jar%2322!:?]
 	at com.google.gson.Gson.assertFullConsumption(Gson.java:859) ~[gson-2.8.0.jar%2322!:?]
 	... 8 more
-[01:08:09] [Server thread/INFO]: Preparing level "world"
-[01:08:10] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[01:08:11] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:08:11] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:08:11] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:08:11] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:08:12] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:08:12] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:08:18] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:08:18] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:08:18] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:08:18] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:08:18] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:08:18] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:08:18] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:08:18] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:08:18] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:08:18] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:08:18] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:08:18] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:08:19] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:08:19] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:08:20] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:08:20] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:08:21] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:08:21] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:08:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:08:22] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:08:23] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:08:23] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:08:24] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:08:24] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:08:25] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:08:25] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:08:26] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:08:26] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:08:27] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:08:27] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:08:28] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:08:28] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:08:29] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:08:29] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[01:08:30] [Worker-Main-2/INFO]: Preparing spawn area: 1%
-[01:08:30] [Worker-Main-2/INFO]: Preparing spawn area: 51%
-[01:08:33] [Worker-Main-2/INFO]: Preparing spawn area: 68%
-[01:08:33] [Worker-Main-2/INFO]: Preparing spawn area: 68%
-[01:08:33] [Worker-Main-2/INFO]: Preparing spawn area: 68%
-[01:08:33] [Worker-Main-2/INFO]: Preparing spawn area: 68%
-[01:08:33] [Worker-Main-2/INFO]: Preparing spawn area: 68%
-[01:08:33] [Server thread/INFO]: Time elapsed: 23865 ms
-[01:08:33] [Server thread/INFO]: Done (24.461s)! For help, type "help"
-[01:19:37] [Server thread/INFO]: com.mojang.authlib.GameProfile@10ffe32f[id=<null>,name=SvAngeel,properties={},legacy=false] (/[0:0:0:0:0:0:0:1%0]:40018) lost connection: Timed out
-[01:19:42] [Server thread/INFO]: com.mojang.authlib.GameProfile@61ad2e04[id=<null>,name=SvAngeel,properties={},legacy=false] (/[0:0:0:0:0:0:0:1%0]:46624) lost connection: Timed out
-[01:19:46] [Server thread/INFO]: com.mojang.authlib.GameProfile@6a7be494[id=<null>,name=SvAngeel,properties={},legacy=false] (/[0:0:0:0:0:0:0:1%0]:46632) lost connection: Timed out
-[01:19:48] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[01:19:48] [Server thread/INFO]: RELOAD<--[HERE]
-[01:19:51] [Server thread/INFO]: Reloading!
-[01:19:51] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:19:51] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:19:51] [Server thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[01:19:51] [Server thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[01:19:51] [Server thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[01:19:51] [Server thread/INFO]: Reloading ResourceManager: Default, forge-1.17.1-37.1.1-universal.jar, worldedit-mod-7.2.7.jar, jei-1.17.1-8.3.1.1002.jar
-[01:19:53] [Server thread/INFO]: Loaded 7 recipes
-[01:19:54] [Server thread/INFO]: Loaded 1137 advancements
-[01:19:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3612ms or 72 ticks behind
-[01:20:34] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[01:20:34] [Server thread/INFO]: stopo<--[HERE]
-[01:20:37] [Server thread/INFO]: Stopping the server
-[01:20:37] [Server thread/INFO]: Stopping server
-[01:20:37] [Server thread/INFO]: Saving players
-[01:20:37] [Server thread/INFO]: Saving worlds
-[01:20:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[01:20:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[01:20:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[01:20:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01:20:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:20:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:20:37] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01:22:51] [Server thread/INFO]: Preparing level "world"
+[01:22:51] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:22:52] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[01:22:55] [Netty Epoll Server IO #1/INFO]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[01:22:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[01:22:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[01:22:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[01:22:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[01:22:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[01:22:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[01:22:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[01:22:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[01:22:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[01:22:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[01:22:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[01:22:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[01:22:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[01:22:59] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[01:22:59] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[01:22:59] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[01:23:00] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[01:23:00] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[01:23:01] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[01:23:01] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[01:23:01] [Netty Epoll Server IO #2/INFO]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[01:23:02] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[01:23:02] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[01:23:03] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[01:23:03] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[01:23:04] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[01:23:05] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[01:23:05] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[01:23:05] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[01:23:06] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[01:23:06] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[01:23:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[01:23:07] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[01:23:08] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[01:23:08] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[01:23:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[01:23:09] [Worker-Main-2/INFO]: Preparing spawn area: 19%
+[01:23:11] [Worker-Main-2/INFO]: Preparing spawn area: 55%
+[01:23:11] [Worker-Main-2/INFO]: Preparing spawn area: 55%
+[01:23:11] [Worker-Main-2/INFO]: Preparing spawn area: 55%
+[01:23:12] [Worker-Main-2/INFO]: Preparing spawn area: 55%
+[01:23:12] [Server thread/INFO]: Time elapsed: 20430 ms
+[01:23:12] [Server thread/INFO]: Done (20.923s)! For help, type "help"
+[01:23:47] [Server thread/INFO]: com.mojang.authlib.GameProfile@3bc45085[id=<null>,name=SvAngeel,properties={},legacy=false] (/[0:0:0:0:0:0:0:1%0]:44798) lost connection: Timed out
+[01:24:33] [Server thread/INFO]: com.mojang.authlib.GameProfile@921780b[id=<null>,name=SvAngeel,properties={},legacy=false] (/[0:0:0:0:0:0:0:1%0]:53654) lost connection: Timed out
+[01:37:19] [Server thread/INFO]: Stopping the server
+[01:37:19] [Server thread/INFO]: Stopping server
+[01:37:19] [Server thread/INFO]: Saving players
+[01:37:19] [Server thread/INFO]: Saving worlds
+[01:37:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:37:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[01:37:19] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[01:37:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:37:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:37:19] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:37:19] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
