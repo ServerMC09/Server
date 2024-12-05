@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "7c8249dd-0dfa-3922-8112-ca8466f214e7",
+    "name": "SvAngeel",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
