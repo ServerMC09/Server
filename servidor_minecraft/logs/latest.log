@@ -107,3 +107,31 @@ Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLeni
 [01:08:33] [Worker-Main-2/INFO]: Preparing spawn area: 68%
 [01:08:33] [Server thread/INFO]: Time elapsed: 23865 ms
 [01:08:33] [Server thread/INFO]: Done (24.461s)! For help, type "help"
+[01:19:37] [Server thread/INFO]: com.mojang.authlib.GameProfile@10ffe32f[id=<null>,name=SvAngeel,properties={},legacy=false] (/[0:0:0:0:0:0:0:1%0]:40018) lost connection: Timed out
+[01:19:42] [Server thread/INFO]: com.mojang.authlib.GameProfile@61ad2e04[id=<null>,name=SvAngeel,properties={},legacy=false] (/[0:0:0:0:0:0:0:1%0]:46624) lost connection: Timed out
+[01:19:46] [Server thread/INFO]: com.mojang.authlib.GameProfile@6a7be494[id=<null>,name=SvAngeel,properties={},legacy=false] (/[0:0:0:0:0:0:0:1%0]:46632) lost connection: Timed out
+[01:19:48] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[01:19:48] [Server thread/INFO]: RELOAD<--[HERE]
+[01:19:51] [Server thread/INFO]: Reloading!
+[01:19:51] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:19:51] [Server thread/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:19:51] [Server thread/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01:19:51] [Server thread/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[01:19:51] [Server thread/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[01:19:51] [Server thread/INFO]: Reloading ResourceManager: Default, forge-1.17.1-37.1.1-universal.jar, worldedit-mod-7.2.7.jar, jei-1.17.1-8.3.1.1002.jar
+[01:19:53] [Server thread/INFO]: Loaded 7 recipes
+[01:19:54] [Server thread/INFO]: Loaded 1137 advancements
+[01:19:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3612ms or 72 ticks behind
+[01:20:34] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[01:20:34] [Server thread/INFO]: stopo<--[HERE]
+[01:20:37] [Server thread/INFO]: Stopping the server
+[01:20:37] [Server thread/INFO]: Stopping server
+[01:20:37] [Server thread/INFO]: Saving players
+[01:20:37] [Server thread/INFO]: Saving worlds
+[01:20:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:20:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[01:20:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[01:20:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:20:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:20:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:20:37] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
