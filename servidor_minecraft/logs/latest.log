@@ -146,3 +146,12 @@ Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLeni
 [07:12:05] [Server thread/WARN]: oswald moved too quickly! -10.702772690800117,0.0,-1.5913361806177448
 [07:12:05] [Server thread/WARN]: SvAngeel moved too quickly! -1.3765894153790157,-10.125000402331011,1.2491733049080551
 [07:16:32] [Server thread/INFO]: [SvAngeel: Gave 1 [Barrier] to SvAngeel]
+[07:23:36] [Server thread/INFO]: [SvAngeel: Applied enchantment Efficiency V to SvAngeel's item]
+[07:23:38] [Server thread/INFO]: [SvAngeel: Applied enchantment Efficiency V to SvAngeel's item]
+[07:23:40] [Server thread/INFO]: [SvAngeel: Set own game mode to Spectator Mode]
+[07:23:41] [Server thread/INFO]: [SvAngeel: Set own game mode to Creative Mode]
+[07:23:43] [Server thread/INFO]: [SvAngeel: Set own game mode to Survival Mode]
+[07:23:49] [Server thread/INFO]: [SvAngeel: Set oswald's game mode to Survival Mode]
+[07:24:05] [Server thread/INFO]: [SvAngeel: Set own game mode to Creative Mode]
+[07:24:13] [Server thread/INFO]: [SvAngeel: Set oswald's game mode to Creative Mode]
+[07:26:54] [Server thread/INFO]: [SvAngeel: Teleported oswald to SvAngeel]
