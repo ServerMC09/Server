@@ -140,3 +140,4 @@ Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLeni
 [06:54:59] [Server thread/INFO]: [SvAngeel: Set own game mode to Spectator Mode]
 [06:55:01] [Server thread/INFO]: [SvAngeel: Set own game mode to Creative Mode]
 [06:55:03] [Server thread/INFO]: [SvAngeel: Teleported oswald to SvAngeel]
+[07:00:38] [Server thread/INFO]: [SvAngeel: Teleported SvAngeel to oswald]
