@@ -104,3 +104,15 @@ Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLeni
 [06:35:12] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@62388041
 [06:35:12] [Server thread/INFO]: oswald[/[0:0:0:0:0:0:0:1%0]:35376] logged in with entity id 84 at (273.5, 64.0, -396.5)
 [06:35:12] [Server thread/INFO]: oswald joined the game
+[06:37:41] [Server thread/INFO]: <oswald> se salio el discord pera
+[06:40:13] [Server thread/INFO]: oswald lost connection: Timed out
+[06:40:13] [Server thread/INFO]: oswald left the game
+[06:40:13] [Server thread/WARN]: handleDisconnection() called twice
+[06:40:48] [Server thread/INFO]: [SvAngeel: Gave 1 [Command Block] to SvAngeel]
+[06:42:34] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@33514cef
+[06:42:34] [Server thread/INFO]: oswald[/[0:0:0:0:0:0:0:1%0]:58798] logged in with entity id 95 at (250.74518886656298, 64.0625, -413.3481491580064)
+[06:42:34] [Server thread/INFO]: oswald joined the game
+[06:43:37] [Server thread/INFO]: [SvAngeel: Set own game mode to Spectator Mode]
+[06:43:38] [Server thread/INFO]: [SvAngeel: Set own game mode to Creative Mode]
+[06:45:33] [Server thread/INFO]: [SvAngeel: Set own game mode to Spectator Mode]
+[06:45:38] [Server thread/INFO]: [SvAngeel: Set own game mode to Creative Mode]
