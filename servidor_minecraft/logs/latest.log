@@ -176,3 +176,14 @@ Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLeni
 [07:52:47] [Server thread/INFO]: [oswald: Set own game mode to Spectator Mode]
 [07:59:49] [Server thread/INFO]: oswald lost connection: Timed out
 [07:59:49] [Server thread/INFO]: oswald left the game
+[08:54:35] [Server thread/INFO]: Stopping the server
+[08:54:35] [Server thread/INFO]: Stopping server
+[08:54:35] [Server thread/INFO]: Saving players
+[08:54:35] [Server thread/INFO]: Saving worlds
+[08:54:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[08:54:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[08:54:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[08:54:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[08:54:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[08:54:35] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[08:54:35] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
