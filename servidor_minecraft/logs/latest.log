@@ -1,44 +1,44 @@
-[17:30:41] [main/INFO]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 37.1.1, --fml.mcVersion, 1.17.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20210706.113038]
-[17:30:41] [main/INFO]: ModLauncher 9.0.7+91+master.8569cdf starting: java version 21.0.4 by Microsoft
-[17:30:41] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=union:/workspaces/Server/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar%2319! Service=ModLauncher Env=SERVER
-[17:30:41] [main/INFO]: Found mod file jei-1.17.1-8.3.1.1002.jar of type MOD with locator {mods folder locator at /workspaces/Server/servidor_minecraft/mods}
-[17:30:41] [main/INFO]: Found mod file worldedit-mod-7.2.7.jar of type MOD with locator {mods folder locator at /workspaces/Server/servidor_minecraft/mods}
-[17:30:42] [main/INFO]: Found mod file fmlcore-1.17.1-37.1.1.jar of type LIBRARY with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@2bb7bd00
-[17:30:42] [main/INFO]: Found mod file javafmllanguage-1.17.1-37.1.1.jar of type LANGPROVIDER with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@2bb7bd00
-[17:30:42] [main/INFO]: Found mod file mclanguage-1.17.1-37.1.1.jar of type LANGPROVIDER with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@2bb7bd00
-[17:30:42] [main/INFO]: Found mod file server-1.17.1-20210706.113038-srg.jar of type MOD with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@2bb7bd00
-[17:30:42] [main/INFO]: Found mod file forge-1.17.1-37.1.1-universal.jar of type MOD with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@2bb7bd00
-[17:30:46] [main/INFO]: Launching target 'forgeserver' with arguments []
-[17:30:56] [modloading-worker-0/INFO]: Forge mod loading, version 37.1.1, for MC 1.17.1 with MCP 20210706.113038
-[17:30:56] [modloading-worker-0/INFO]: MinecraftForge v37.1.1 Initialized
-[17:30:59] [Forge Version Check/INFO]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[17:31:00] [modloading-worker-0/INFO]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@bc8530f]
-[17:31:00] [modloading-worker-0/INFO]: WorldEdit for Forge (version 7.2.7+9f3e795) is loaded
-[17:31:00] [Forge Version Check/INFO]: [forge] Found status: UP_TO_DATE Current: 37.1.1 Target: null
-[17:31:04] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[17:31:05] [main/WARN]: Assets URL 'union:/workspaces/Server/servidor_minecraft/libraries/net/minecraft/server/1.17.1-20210706.113038/server-1.17.1-20210706.113038-srg.jar%2328!/assets/.mcassetsroot' uses unexpected schema
-[17:31:05] [main/WARN]: Assets URL 'union:/workspaces/Server/servidor_minecraft/libraries/net/minecraft/server/1.17.1-20210706.113038/server-1.17.1-20210706.113038-srg.jar%2328!/data/.mcassetsroot' uses unexpected schema
-[17:31:06] [main/INFO]: Registering commands with com.sk89q.worldedit.forge.ForgePlatform
-[17:31:06] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[17:31:06] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[17:31:06] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[17:31:06] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[17:31:06] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[17:31:06] [main/INFO]: Reloading ResourceManager: Default, forge-1.17.1-37.1.1-universal.jar, worldedit-mod-7.2.7.jar, jei-1.17.1-8.3.1.1002.jar
-[17:31:11] [Worker-Main-2/INFO]: Loaded 7 recipes
-[17:31:13] [Worker-Main-2/INFO]: Loaded 1137 advancements
-[17:31:14] [main/INFO]: Injecting existing registry data into this CLIENT instance
-[17:31:15] [Server thread/INFO]: Starting minecraft server version 1.17.1
-[17:31:15] [Server thread/INFO]: Loading properties
-[17:31:15] [Server thread/INFO]: Default game type: SURVIVAL
-[17:31:15] [Server thread/INFO]: Generating keypair
-[17:31:16] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:31:16] [Server thread/INFO]: Using epoll channel type
-[17:31:16] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:31:16] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:31:16] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:31:16] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:31:16] [Server thread/WARN]: Failed to load white-list: 
+[06:16:02] [main/INFO]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 37.1.1, --fml.mcVersion, 1.17.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20210706.113038]
+[06:16:02] [main/INFO]: ModLauncher 9.0.7+91+master.8569cdf starting: java version 21.0.4 by Microsoft
+[06:16:02] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=union:/workspaces/Server/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar%2319! Service=ModLauncher Env=SERVER
+[06:16:02] [main/INFO]: Found mod file jei-1.17.1-8.3.1.1002.jar of type MOD with locator {mods folder locator at /workspaces/Server/servidor_minecraft/mods}
+[06:16:02] [main/INFO]: Found mod file worldedit-mod-7.2.7.jar of type MOD with locator {mods folder locator at /workspaces/Server/servidor_minecraft/mods}
+[06:16:03] [main/INFO]: Found mod file fmlcore-1.17.1-37.1.1.jar of type LIBRARY with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@2bb7bd00
+[06:16:03] [main/INFO]: Found mod file javafmllanguage-1.17.1-37.1.1.jar of type LANGPROVIDER with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@2bb7bd00
+[06:16:03] [main/INFO]: Found mod file mclanguage-1.17.1-37.1.1.jar of type LANGPROVIDER with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@2bb7bd00
+[06:16:03] [main/INFO]: Found mod file server-1.17.1-20210706.113038-srg.jar of type MOD with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@2bb7bd00
+[06:16:03] [main/INFO]: Found mod file forge-1.17.1-37.1.1-universal.jar of type MOD with locator net.minecraftforge.fml.loading.moddiscovery.MinecraftLocator@2bb7bd00
+[06:16:11] [main/INFO]: Launching target 'forgeserver' with arguments []
+[06:16:24] [modloading-worker-0/INFO]: Forge mod loading, version 37.1.1, for MC 1.17.1 with MCP 20210706.113038
+[06:16:24] [modloading-worker-0/INFO]: MinecraftForge v37.1.1 Initialized
+[06:16:26] [Forge Version Check/INFO]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[06:16:28] [modloading-worker-0/INFO]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@416a33dd]
+[06:16:28] [modloading-worker-0/INFO]: WorldEdit for Forge (version 7.2.7+9f3e795) is loaded
+[06:16:28] [Forge Version Check/INFO]: [forge] Found status: UP_TO_DATE Current: 37.1.1 Target: null
+[06:16:33] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[06:16:33] [main/WARN]: Assets URL 'union:/workspaces/Server/servidor_minecraft/libraries/net/minecraft/server/1.17.1-20210706.113038/server-1.17.1-20210706.113038-srg.jar%2328!/assets/.mcassetsroot' uses unexpected schema
+[06:16:33] [main/WARN]: Assets URL 'union:/workspaces/Server/servidor_minecraft/libraries/net/minecraft/server/1.17.1-20210706.113038/server-1.17.1-20210706.113038-srg.jar%2328!/data/.mcassetsroot' uses unexpected schema
+[06:16:34] [main/INFO]: Registering commands with com.sk89q.worldedit.forge.ForgePlatform
+[06:16:34] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[06:16:34] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[06:16:34] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[06:16:34] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[06:16:34] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[06:16:34] [main/INFO]: Reloading ResourceManager: Default, forge-1.17.1-37.1.1-universal.jar, worldedit-mod-7.2.7.jar, jei-1.17.1-8.3.1.1002.jar
+[06:16:39] [Worker-Main-2/INFO]: Loaded 7 recipes
+[06:16:41] [Worker-Main-2/INFO]: Loaded 1137 advancements
+[06:16:42] [main/INFO]: Injecting existing registry data into this CLIENT instance
+[06:16:43] [Server thread/INFO]: Starting minecraft server version 1.17.1
+[06:16:43] [Server thread/INFO]: Loading properties
+[06:16:43] [Server thread/INFO]: Default game type: SURVIVAL
+[06:16:43] [Server thread/INFO]: Generating keypair
+[06:16:44] [Server thread/INFO]: Starting Minecraft server on *:25565
+[06:16:44] [Server thread/INFO]: Using epoll channel type
+[06:16:44] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06:16:44] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[06:16:44] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[06:16:44] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[06:16:44] [Server thread/WARN]: Failed to load white-list: 
 com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 2 column 2 path $
 	at com.google.gson.Gson.assertFullConsumption(Gson.java:863) ~[gson-2.8.0.jar%2322!:?]
 	at com.google.gson.Gson.fromJson(Gson.java:826) ~[gson-2.8.0.jar%2322!:?]
@@ -56,102 +56,46 @@ Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLeni
 	at com.google.gson.stream.JsonReader.peek(JsonReader.java:425) ~[gson-2.8.0.jar%2322!:?]
 	at com.google.gson.Gson.assertFullConsumption(Gson.java:859) ~[gson-2.8.0.jar%2322!:?]
 	... 8 more
-[17:31:16] [Server thread/INFO]: Preparing level "world"
-[17:31:16] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:31:17] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:31:17] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:31:23] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:31:23] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:31:23] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:31:23] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:31:23] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:31:23] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:31:23] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:31:23] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:31:23] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:31:23] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:31:23] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:31:23] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:31:23] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:31:24] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:31:24] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:31:25] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:31:25] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:31:26] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:31:27] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:31:27] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:31:27] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:31:28] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:31:28] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:31:29] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:31:29] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:31:30] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:31:30] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:31:31] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:31:32] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:31:32] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:31:32] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:31:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:31:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:31:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:31:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:31:35] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:31:35] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:31:36] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[17:31:37] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[17:31:40] [Worker-Main-2/INFO]: Preparing spawn area: 31%
-[17:31:40] [Worker-Main-2/INFO]: Preparing spawn area: 31%
-[17:31:40] [Worker-Main-2/INFO]: Preparing spawn area: 31%
-[17:31:40] [Worker-Main-2/INFO]: Preparing spawn area: 31%
-[17:31:40] [Worker-Main-2/INFO]: Preparing spawn area: 31%
-[17:31:40] [Worker-Main-2/INFO]: Preparing spawn area: 31%
-[17:31:40] [Server thread/INFO]: Time elapsed: 23503 ms
-[17:31:40] [Server thread/INFO]: Done (23.835s)! For help, type "help"
-[17:32:46] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@25d40b9
-[17:32:46] [Server thread/INFO]: SvAngeel[/[0:0:0:0:0:0:0:1%0]:60450] logged in with entity id 126 at (30.5, 67.0, -133.5)
-[17:32:46] [Server thread/INFO]: SvAngeel joined the game
-[17:32:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
-[17:33:12] [Server thread/INFO]: Made SvAngeel a server operator
-[17:33:15] [Server thread/INFO]: [SvAngeel: Set own game mode to Creative Mode]
-[17:35:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[17:36:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10023ms or 200 ticks behind
-[17:36:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6283ms or 125 ticks behind
-[17:37:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3453ms or 69 ticks behind
-[17:51:34] [Server thread/INFO]: [SvAngeel: Set the world spawn point to 195, 99, -459 [0.0]]
-[17:51:37] [Server thread/INFO]: [SvAngeel: Set the world spawn point to 190, 99, -459 [0.0]]
-[17:51:51] [Server thread/INFO]: [SvAngeel: Set the world spawn point to 191, 98, -459 [0.0]]
-[17:52:04] [Server thread/INFO]: [SvAngeel: Set spawn point to 194, 99, -459 [0.0] in minecraft:overworld for SvAngeel]
-[17:52:12] [Server thread/INFO]: SvAngeel fell out of the world
-[17:52:12] [Server thread/INFO]: [SvAngeel: Killed 153 entities]
-[17:52:18] [Server thread/INFO]: [SvAngeel: Set own game mode to Spectator Mode]
-[17:52:21] [Server thread/INFO]: [SvAngeel: Set own game mode to Creative Mode]
-[17:55:11] [Server thread/INFO]: [SvAngeel: Gamerule doImmediateRespawn is now set to: true]
-[17:55:18] [Server thread/INFO]: [SvAngeel: Gamerule doMobSpawning is now set to: false]
-[17:55:32] [Server thread/INFO]: [SvAngeel: Gamerule randomTickSpeed is now set to: 45]
-[17:55:42] [Server thread/INFO]: [SvAngeel: Gamerule mobGriefing is now set to: false]
-[17:55:53] [Server thread/INFO]: [SvAngeel: Gamerule keepInventory is now set to: true]
-[17:55:59] [Server thread/INFO]: SvAngeel fell out of the world
-[17:55:59] [Server thread/INFO]: [SvAngeel: Killed 220 entities]
-[17:56:01] [Server thread/INFO]: [SvAngeel: Set own game mode to Spectator Mode]
-[17:56:03] [Server thread/INFO]: [SvAngeel: Set own game mode to Creative Mode]
-[17:57:07] [Server thread/WARN]: SvAngeel moved too quickly! -3.774198629957894,-9.371508115577058,0.2221668719581089
-[18:09:51] [Server thread/INFO]: [SvAngeel: Applied effect Speed to SvAngeel]
-[18:11:42] [Server thread/INFO]: [SvAngeel: Removed every effect from SvAngeel]
-[18:36:01] [Server thread/INFO]: [SvAngeel: Set the world spawn point to 284, 64, -398 [0.0]]
-[18:36:06] [Server thread/INFO]: [SvAngeel: Set the world spawn point to 283, 64, -398 [0.0]]
-[18:36:13] [Server thread/INFO]: [SvAngeel: Set spawn point to 283, 64, -398 [0.0] in minecraft:overworld for SvAngeel]
-[18:37:13] [Server thread/INFO]: SvAngeel has made the advancement [Glow and Behold!]
-[19:14:09] [Server thread/INFO]: SvAngeel lost connection: Timed out
-[19:14:09] [Server thread/INFO]: SvAngeel left the game
-[19:14:09] [Server thread/WARN]: handleDisconnection() called twice
-[19:14:26] [Server thread/INFO]: Stopping the server
-[19:14:26] [Server thread/INFO]: Stopping server
-[19:14:26] [Server thread/INFO]: Saving players
-[19:14:26] [Server thread/INFO]: Saving worlds
-[19:14:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[19:14:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[19:14:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[19:14:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:14:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:14:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:14:27] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[06:16:44] [Server thread/INFO]: Preparing level "world"
+[06:16:44] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[06:16:46] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:16:46] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:16:46] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:16:46] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:16:46] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:16:47] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:16:53] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:16:53] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:16:53] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:16:53] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:16:53] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:16:53] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:16:53] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:16:53] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:16:53] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:16:53] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:16:53] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:16:53] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:16:53] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:16:54] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:16:55] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:16:55] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:16:55] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:16:56] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:16:56] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:16:57] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:16:57] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:16:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:16:58] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:16:59] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[06:16:59] [Worker-Main-2/INFO]: Preparing spawn area: 1%
+[06:17:00] [Worker-Main-2/INFO]: Preparing spawn area: 5%
+[06:17:00] [Worker-Main-2/INFO]: Preparing spawn area: 54%
+[06:17:01] [Worker-Main-2/INFO]: Preparing spawn area: 93%
+[06:17:01] [Server thread/INFO]: Time elapsed: 16853 ms
+[06:17:01] [Server thread/INFO]: Done (17.255s)! For help, type "help"
+[06:22:41] [Server thread/INFO]: com.mojang.authlib.GameProfile@676c5ef8[id=<null>,name=SvAngeel,properties={},legacy=false] (/[0:0:0:0:0:0:0:1%0]:49156) lost connection: Timed out
+[06:23:33] [Server thread/INFO]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@680abdfb
+[06:23:33] [Server thread/INFO]: SvAngeel[/[0:0:0:0:0:0:0:1%0]:52844] logged in with entity id 40 at (54.50573311281636, 108.63171183916387, -412.2389044253867)
+[06:23:33] [Server thread/INFO]: SvAngeel joined the game
+[06:24:04] [Server thread/WARN]: SvAngeel moved too quickly! 10.319399627298708,0.0,-1.3482143400675568
