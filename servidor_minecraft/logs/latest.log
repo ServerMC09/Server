@@ -141,3 +141,8 @@ Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLeni
 [06:55:01] [Server thread/INFO]: [SvAngeel: Set own game mode to Creative Mode]
 [06:55:03] [Server thread/INFO]: [SvAngeel: Teleported oswald to SvAngeel]
 [07:00:38] [Server thread/INFO]: [SvAngeel: Teleported SvAngeel to oswald]
+[07:08:27] [Server thread/INFO]: [SvAngeel: Set the time to 1000]
+[07:11:14] [Server thread/INFO]: [SvAngeel: Teleported oswald to SvAngeel]
+[07:12:05] [Server thread/WARN]: oswald moved too quickly! -10.702772690800117,0.0,-1.5913361806177448
+[07:12:05] [Server thread/WARN]: SvAngeel moved too quickly! -1.3765894153790157,-10.125000402331011,1.2491733049080551
+[07:16:32] [Server thread/INFO]: [SvAngeel: Gave 1 [Barrier] to SvAngeel]
