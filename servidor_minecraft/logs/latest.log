@@ -158,3 +158,19 @@ Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLeni
 [07:27:04] [Server thread/WARN]: oswald moved too quickly! 0.0,-10.895135301539725,0.0
 [07:47:06] [Server thread/INFO]: [SvAngeel: Set the weather to clear]
 [07:47:15] [Server thread/INFO]: [SvAngeel: Set the time to 1000]
+[07:47:35] [Server thread/INFO]: [SvAngeel: Set own game mode to Survival Mode]
+[07:47:36] [Server thread/INFO]: [SvAngeel: Set own game mode to Creative Mode]
+[07:47:37] [Server thread/INFO]: [SvAngeel: Set own game mode to Spectator Mode]
+[07:47:40] [Server thread/INFO]: [SvAngeel: Set own game mode to Creative Mode]
+[07:48:39] [Server thread/INFO]: [SvAngeel: Set own game mode to Spectator Mode]
+[07:48:45] [Server thread/INFO]: [SvAngeel: Set own game mode to Creative Mode]
+[07:48:51] [Server thread/INFO]: [SvAngeel: Made oswald a server operator]
+[07:49:23] [Server thread/INFO]: [oswald: Set own game mode to Spectator Mode]
+[07:49:38] [Server thread/INFO]: [SvAngeel: Set own game mode to Spectator Mode]
+[07:49:39] [Server thread/INFO]: [SvAngeel: Set own game mode to Creative Mode]
+[07:50:08] [Server thread/INFO]: [SvAngeel: Set own game mode to Spectator Mode]
+[07:50:10] [Server thread/INFO]: [SvAngeel: Set own game mode to Creative Mode]
+[07:50:24] [Server thread/INFO]: [oswald: Set own game mode to Creative Mode]
+[07:50:54] [Server thread/INFO]: SvAngeel lost connection: Timed out
+[07:50:54] [Server thread/INFO]: SvAngeel left the game
+[07:52:47] [Server thread/INFO]: [oswald: Set own game mode to Spectator Mode]
